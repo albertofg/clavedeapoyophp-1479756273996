@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: clavedeapoyophp
+  host: clavedeapoyophp
+  disk_quota: 512M
+  services:
+  - availability-monitoring-auto
+  buildpack: php_buildpack
